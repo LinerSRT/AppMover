@@ -1,0 +1,9 @@
+#!/system/bin/sh
+COMMAND_TYPE=$1
+DATA_PATH=$2
+PACKAGE_NAME=$3
+
+echo $COMMAND_TYPE
+sleep 10s
+echo $DATA_PATH
+echo $PACKAGE_NAME
